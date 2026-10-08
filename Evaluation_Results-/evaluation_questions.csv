@@ -1,0 +1,11 @@
+id,question,expected_answer,expected_pages,category
+1,What is the purpose of the Communication Manager?,Coordinates application communication and CAN interface routing.,6,component
+2,Which component controls door lock and window functions?,Door Control Component controls door lock and window functions.,4,component
+3,What signals does Sensor Manager acquire?,DoorPosition CabinTemperature and OutsideTemperature.,7,signal
+4,What is CAN ID for DoorLockRequest?,DoorLockRequest uses CAN ID 0x221.,6,CAN
+5,What happens when a door actuator fault is reported?,Door lock request is rejected.,4,diagnostics
+6,Which component owns controller access?,CAN Interface owns controller access.,6,interface
+7,What does DTC-CLIM-014 mean?,Cabin-temperature sensor plausibility failure.,8,diagnostics
+8,Describe the door lock functional flow.,Request passes CAN Interface Communication Manager Door Control and Actuator Manager.,9,functional_flow
+9,What does Vehicle Application Manager depend on?,Communication Manager and Diagnostic Manager.,3,dependency
+10,What is outside the demonstration scope?,Safety cybersecurity timing calibration and detailed AUTOSAR configuration.,11,summary
